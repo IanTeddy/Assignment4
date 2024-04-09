@@ -29,6 +29,9 @@ const getAstroData = () => {
     }).catch(() => {
         alert("An error occurred while fetching the data");
     });
+
+    //clear input data and previous data
+    
 }
 
 /*
