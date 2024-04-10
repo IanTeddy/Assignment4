@@ -6,21 +6,69 @@
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
 }
+
+
 body {
-  background: #E3F2FD;
+  background-image: url('/nasa-api-js/images/space_blue.jpg');
+  background-size: cover;
 }
-h1 {
-  background: #5372F0;
+.title {    
   font-size: 1.75rem;
   text-align: center;
   padding: 18px 0;
   color: #fff;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
 }
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+}
+
+input {
+  font-size: 20px;
+    width: 1000rem;
+    height: 300rem;
+    padding: 10px; 
+    margin-top: 10px;
+    width: 200px;
+}
+.changa {
+  font-family: 'Changa', sans-serif;
+  font-weight: 400;
+  font-size: 5.2rem;
+}
+
 .container {
   display: flex;
   gap: 35px;
   padding: 30px;
 }
+.main{
+  display:flex;
+  flex-flow: column;
+  height:300px;
+ }
+
+
+
+
+
+
+
+
+
+
 .weather-input {
   width: 550px;
 }
