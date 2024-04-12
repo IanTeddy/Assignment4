@@ -39,7 +39,7 @@ function displayStoredData() {
     dateElement.textContent = parsedData.date;
     explanationElement.textContent = parsedData.explanation;
     titleElement.textContent = parsedData.title;
-    urlElement.innerHTML = `<a href="${parsedData.url}">${parsedData.url}</a>`;
+    urlElement.innerHTML = `<img src="${parsedData.url}" alt="APOD Image">`;
 }
 
 window.addEventListener('load', displayStoredData);

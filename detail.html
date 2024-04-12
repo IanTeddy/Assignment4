@@ -4,19 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NASA API with JavaScript</title>
+     <!-- title font --> 
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Changa:wght@200..800&family=Gamja+Flower&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Libre+Barcode+39&family=Madimi+One&family=Protest+Guerrilla&family=Workbench&display=swap" rel="stylesheet">
+         
+ <title>NASA API with JavaScript</title>
     <link rel="stylesheet" href="style_detail.css">
 </head>
 <body>
 
-    <div class="main result">
-        <div id="date"></div>
-        <div id="explanation"></div>
-        <div id="title"></div>
-        <div id="url"></div>
+    <div class="main result"> 
+        <div id="logo-container">
+        <img class="NASA_logo" src="images/NASA_logo.svg.png" alt="NASA_logo" />
     </div>
-    <a href="index.html" id="backButton" class="btn btn-gradient"><span>Back</span></a>
-
+        <div id="date"></div>
+        <div id="title"></div>
+        <div id="url" style="text-align: center;"></div>
+        <div id="explanation"></div>
+    </div>
+    <div class="parent-div">
+    <a href="index.html" class="btn btn-gradient"><span>Back</span></a>
+</div>
     <script src="script.js"></script>
 </body>
 </html>
