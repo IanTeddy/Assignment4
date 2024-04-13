@@ -1,33 +1,39 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
+
   <!-- head -->
   <head>
     <meta charset="utf-8">
-    <title>NASA API with JavaScript</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NASA API with JavaScript(index)</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     
     <!-- title font --> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Changa:wght@200..800&family=Gamja+Flower&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Libre+Barcode+39&family=Madimi+One&family=Protest+Guerrilla&family=Workbench&display=swap" rel="stylesheet">
-        
+
+    <!-- stylesheet -->
     <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+  <script src="script.js" defer></script>
   </head>
 
 <!-- body -->
 <body>
   <div class="main title">
     <h1 class="changa">Astronomy Picture of the Day</h1>
-
-  <div class="main container">
-    <input class="query-input" type="date" min="1995-06-16">
     
-    <button class="btn btn-gradient" id="searchButton" onclick="getAstroData()"><span>Search</span></button>
+    <div class="main container">
+      <input class="query-input" type="date" min="1995-06-16">
 
+      <!-- When Search button clicked, getAstroData()function will excute -->
+      <button class="btn btn-gradient" id="searchButton" onclick="getAstroData()">
+      <span>Search</span></button>
 
     </div>
   </div>
-  <script src="script.js"></script>
-  </body>
+</body>
 </html>

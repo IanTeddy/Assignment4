@@ -42,4 +42,5 @@ function displayStoredData() {
     urlElement.innerHTML = `<img src="${parsedData.url}" alt="APOD Image">`;
 }
 
+
 window.addEventListener('load', displayStoredData);

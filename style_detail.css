@@ -10,39 +10,64 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 1rem;
 }
 
 .NASA_logo {
   width: 100px;
   height: auto;
 }
+
+.detail-container {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.3); 
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right {
+  flex: 1;
+}
+
+#url {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+}
+
 div #date{
   font-family: 'Changa', sans-serif;
   color: white;
-  font-weight: 400;
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
 }
 div #title{
   font-family: 'Changa', sans-serif;
   color: white;
+  font-size: 1rem;
   text-align: center;
-  font-size: 2rem;
 }
 
 div #explanation{
   color: white;
   font-size: 1.2rem;
-  margin: 5rem;
-  padding: 2rem;
-  background-color: rgba(255, 255, 255, 0.4); 
+  margin: 2rem;
 }
-
 .btn,
 a.btn,
 button.btn {
   margin: 1rem;
-  font-size: 1.6rem;
+  font-size: 1rem;
   font-weight: 700;
   line-height: 1.5;
   position: relative;
@@ -123,4 +148,26 @@ a.btn-gradient {
 }
 .parent-div {
   text-align: center;
+}
+
+
+#url img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem;
+    max-height: 30rem;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 3s ease-in-out;
 }
