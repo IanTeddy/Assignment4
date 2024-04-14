@@ -21,7 +21,7 @@ body {
 .detail-container {
   display: flex;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.3); 
+  background-color: rgba(9, 6, 76, 0.3); 
 }
 
 .left {
